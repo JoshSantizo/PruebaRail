@@ -48,5 +48,5 @@ app.post('/users', (req, res) => {
 
 // Iniciar servidor
 app.listen(port, () => {
-  console.log(Servidor escuchando en el puerto ${port});
+  console.log(`Servidor escuchando en el puerto ${port}`);
 });
